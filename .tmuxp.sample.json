@@ -1,0 +1,25 @@
+{
+  "session_name": "Node_js Playground",
+  "suppress_history": false,
+  "windows": [
+    {
+      "window_name": "main",
+      "layout": "even-horizontal",
+      "panes": [
+        {
+          "focus": true,
+          "shell_command": "$EDITOR -S"
+        },
+        "yarn test"
+      ]
+    },
+    {
+      "window_name": "git",
+      "panes": [
+        {
+          "shell_command": ["g fetch", "g s"]
+        }
+      ]
+    }
+  ]
+}
